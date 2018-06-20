@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Sassy\Helper;
+namespace KryuuCommon\Sassy\Helper;
 
 use Leafo\ScssPhp\Compiler;
 use Zend\View\Helper\HeadStyle;

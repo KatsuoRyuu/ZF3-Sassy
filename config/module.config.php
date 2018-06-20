@@ -6,9 +6,9 @@
  * and open the template in the editor.
  */
 
-namespace Sassy;
+namespace KryuuCommon\Sassy;
 
-use Sassy\Helper\HeadSass;
+use KryuuCommon\Sassy\Helper\HeadSass;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
