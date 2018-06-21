@@ -24,7 +24,7 @@ class HeadSass extends HeadStyle
      * @var string
      */
 //    protected $regKey = 'Zend_View_Helper_HeadSass';
-    
+
     /**
      *
      * @var Leafo\sessPhp\Compiler
@@ -42,7 +42,7 @@ class HeadSass extends HeadStyle
 
         $this->setSeparator(PHP_EOL);
     }
-    
+
     /**
      * End capture action and store
      *
@@ -68,12 +68,13 @@ class HeadSass extends HeadStyle
                 break;
         }
     }
-    
-    private function getSass() {
-        if (!$this->compiler) {
+
+    private function getSass()
+    {
+        if (! $this->compiler) {
             $this->compiler = new Compiler();
         }
-        
+
         return $this->compiler;
     }
 }
